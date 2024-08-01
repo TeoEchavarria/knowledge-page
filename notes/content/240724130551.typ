@@ -2,6 +2,8 @@
 
 #show : book-page.with(title: "Probabilidad : Condicional")
 
+= Probabilidad : Condicional
+
 Sea la probabilidad Condicional una donde en este caso un evento si depende del otro, a diferencia de cuando hablabamos de probabilidad eventos separados
 
 - La probabilidad condicional es cuando el evento $A$ puede afectar la ocurrencia del evento $B$

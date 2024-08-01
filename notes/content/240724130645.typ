@@ -1,6 +1,9 @@
 #import "/book.typ": *
 
 #show : book-page.with(title: "Interseccion")
+
+= Interseccion
+
 En teoría de #link("/Users/teoechavarria/Documents/notes/240724120916.pdf")[conjuntos] la intersección de dos conjuntos es el conjunto que contiene todos los elementos que son comunes a ambos conjuntos originales. Si tienes dos conjuntos, $A$ y $B$, la intersección de estos conjuntos se denota como $A sect B$.
 
 Matemáticamente, la intersección se define como:

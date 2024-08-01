@@ -2,6 +2,8 @@
 
 #show : book-page.with(title: "Funcion Densidad de Probabilidad")
 
+= Funcion Densidad de Probabilidad
+
 La funcion densidad de probabilidad se le asigna a un #link("/Users/teoechavarria/Documents/notes/240724214235.pdf")[variable aleatoria continua] 
 
 == Propiedades

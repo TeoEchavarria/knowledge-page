@@ -2,6 +2,8 @@
 
 #show : book-page.with(title: "Variable Continua basada en otra Variable Continua")
 
+= Variable Continua basada en otra Variable Continua
+
 Sea $X$ una #link("/Users/teoechavarria/Documents/notes/240724214235.pdf")[variable aleatoria continua] definida con una #link("/Users/teoechavarria/Documents/notes/240724215223.pdf")[funcion densidad de probabilidad], para ejemplos practicos:
 
 $ f(x)= k x^2 $ 

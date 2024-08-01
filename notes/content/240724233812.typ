@@ -2,6 +2,8 @@
 
 #show : book-page.with(title: "Probabilidad : Union de Eventos")
 
+= Probabilidad : Union de Eventos
+
  $ P(A sect B)=P(A)+P(B)-P(A union B) $
 
 Hablando aqui igualmente de pura teoria de conjuntos con #link("/Users/teoechavarria/Documents/notes/240724131724.pdf")[union] e #link("/Users/teoechavarria/Documents/notes/240724130645.pdf")[interseccion] 

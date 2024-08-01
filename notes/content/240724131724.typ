@@ -2,6 +2,8 @@
 
 #show : book-page.with(title: "Union")
 
+= Union
+
 En teoría de #link("/Users/teoechavarria/Documents/notes/240724120916.pdf")[conjuntos] la unión de dos conjuntos es el conjunto que contiene todos los elementos que pertenecen al menos a uno de los conjuntos originales. Si tienes dos conjuntos, $A$ y $B$, la unión de estos conjuntos se denota como $A union B$.
 
 Matemáticamente, la unión se define como:

@@ -2,6 +2,8 @@
 
 #show : book-page.with(title: "Variable Aleatoria")
 
+= Variable Aleatoria
+
 Funcion que le asigna un valor a cada experimento_aleatorio que este dentro de un #link("/Users/teoechavarria/Documents/notes/240724132447.pdf")[espacio muestral] ($S$)
 
 $ X : S arrow RR $
