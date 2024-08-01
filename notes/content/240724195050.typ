@@ -4,7 +4,7 @@
 
 = Evento
 
-#link("/Users/teoechavarria/Documents/notes/240724124455.pdf")[Subconjunto] de resultados existentes dentro del #link("/Users/teoechavarria/Documents/notes/240724132447.pdf")[espacio muestral]
+#cross-link("/content/240724124455.typ")[Subconjunto] de resultados existentes dentro del #cross-link("/content/240724132447.typ")[espacio muestral]
 
 Normalmente se denotan con letras mayusculas 
 

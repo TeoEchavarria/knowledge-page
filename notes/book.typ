@@ -4,6 +4,8 @@
 
 #show: book
 
+// Crear un Python para crear el archivo de typs : Obtener una evaluacion del codigo de typs
+
 #book-meta(
   title: "shiroa",
   summary: [    
@@ -20,7 +22,6 @@
     - #chapter("content/240724121355.typ")[Contable]
     - #chapter("content/240724131724.typ")[Union]
     - #chapter("content/240724130645.typ")[Interseccion]
-    
     = Probabilidad
     - #chapter("content/240724125842.typ")[Probabilidad]
     - #chapter("content/240724130551.typ")[Probabilidad : Condicional]

@@ -4,7 +4,7 @@
 
 = Funcion Densidad de Probabilidad
 
-La funcion densidad de probabilidad se le asigna a un #link("/Users/teoechavarria/Documents/notes/240724214235.pdf")[variable aleatoria continua] 
+La funcion densidad de probabilidad se le asigna a un #cross-link("/content/240724214235.typ")[variable aleatoria continua] 
 
 == Propiedades
 $ f(x) >= 0 $

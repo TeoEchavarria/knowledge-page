@@ -4,9 +4,9 @@
 
 = Esperanza
 
-Cuando es una #link("/Users/teoechavarria/Documents/notes/240724211427.pdf")[variable aleatoria discreta]: 
+Cuando es una #cross-link("/content/240724211427.typ")[variable aleatoria discreta]: 
 	 $ mu = E(x) = sum x*P(x) $ 
-En el caso de ser una #link("/Users/teoechavarria/Documents/notes/240724214235.pdf")[variable aleatoria continua]: 
+En el caso de ser una #cross-link("/content/240724214235.typ")[variable aleatoria continua]: 
 
  $ E[X] = integral_(-infinity)^(infinity) x f(x) d x $ 
 

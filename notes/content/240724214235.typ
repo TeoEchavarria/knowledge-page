@@ -4,4 +4,4 @@
 
 = Variable Aleatoria Continua
 
-Es continua cuando su rango es un conjunto no #link("/Users/teoechavarria/Documents/notes/240724121355.pdf")[contable], es decir es lo opuesto a una #link("/Users/teoechavarria/Documents/notes/240724205621.pdf")[variable aleatoria]
+Es continua cuando su rango es un conjunto no #cross-link("/content/240724121355.typ")[contable], es decir es lo opuesto a una #cross-link("/content/240724205621.typ")[variable aleatoria]

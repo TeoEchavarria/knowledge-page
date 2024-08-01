@@ -4,4 +4,4 @@
 
 = Variable Aleatoria Discreta
 
-Es aquella #link("/Users/teoechavarria/Documents/notes/240724205621.pdf")[] que el rango es un conjunto #link("/Users/teoechavarria/Documents/notes/240724121355.pdf")[contable] strong(finito, numerable) 
+Es aquella #cross-link("/content/240724205621.typ")[] que el rango es un conjunto #cross-link("/content/240724121355.typ")[contable] strong(finito, numerable) 
