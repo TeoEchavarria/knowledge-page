@@ -1,4 +1,4 @@
-Chapter,ID,Title
-"Set Theory","240724113358","Multiplicity Zeros"
-"Set Theory","240724120916","Conjunto"
-"Probability","240724320916","Probability"
+Chapter,ID,Title,PartialEmbedding,Embedding
+"Set Theory","240724120916","Conjunto",0,0
+"Set Theory","240724121355","Contable",0,0
+"Other","240724113358","Multiplicity Zeros",0,0

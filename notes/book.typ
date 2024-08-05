@@ -1,15 +1,15 @@
-
 #import "@preview/shiroa:0.1.0": *
 #import "@preview/gentle-clues:0.9.0": *
 
 #show: book
+    
 #let chapters = (
   ("Set Theory", (
-    ("240724113358", "Multiplicity Zeros"),
     ("240724120916", "Conjunto"),
+    ("240724121355", "Contable"),
   )),
-  ("Probability", (
-    ("240724320916", "Probability"),
+  ("Other", (
+    ("240724113358", "Multiplicity Zeros"),
   )),
 )
 
@@ -21,7 +21,7 @@
 
 #book-meta(
   title: "TeoNotes",
-  summary : summary_dir.product()
+  summary : summary_dir.join()
 )
 
 // re-export page template
