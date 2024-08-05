@@ -3,11 +3,13 @@
 #import "@preview/gentle-clues:0.9.0": *
 
 #show: book
-
 #let chapters = (
   ("Set Theory", (
     ("240724113358", "Multiplicity Zeros"),
     ("240724120916", "Conjunto"),
+  )),
+  ("Probability", (
+    ("240724320916", "Probability"),
   )),
 )
 
@@ -21,8 +23,6 @@
   title: "TeoNotes",
   summary : summary_dir.product()
 )
-
-
 
 // re-export page template
 #import "/templates/page.typ": project
