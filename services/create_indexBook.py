@@ -16,6 +16,7 @@ def create_book():
 
 #book-meta(
   title: "TeoNotes",
+  repository: "https://teoechavarria.github.io/notes",
   summary : summary_dir.join()
 )
 
