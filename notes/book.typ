@@ -21,7 +21,7 @@
 
 #book-meta(
   title: "TeoNotes",
-  repository: "https://teoechavarria.github.io/notes",
+  repository: "https://github.com/teoechavarria/notes",
   summary : summary_dir.join()
 )
 
