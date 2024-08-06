@@ -64,6 +64,6 @@
 )
 
 // re-export page template
-#import "/typ/templates/page.typ": project, heading-reference
+#import "templates/page.typ": project, heading-reference
 #let book-page = project
 #let heading-reference = heading-reference

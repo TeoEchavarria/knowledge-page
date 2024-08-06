@@ -3,7 +3,7 @@
 #import "@preview/shiroa:0.1.0": get-page-width, target, is-web-target, is-pdf-target, plain-text, templates
 #import templates: *
 #import "template-link.typ": *
-#import "/typ/templates/side-notes.typ": side-attrs
+#import "side-notes.typ": side-attrs
 
 // Metadata
 #let page-width = get-page-width()
