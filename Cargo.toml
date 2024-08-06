@@ -1,0 +1,83 @@
+[workspace.package]
+description = "A simple tool for creating modern online books in pure typst."
+authors = ["TeoEchavarria"]
+version = "0.1.5"
+edition = "2021"
+readme = "README.md"
+license = "Apache-2.0"
+homepage = "https://github.com/TeoEchavarria/notes"
+repository = "https://github.com/TeoEchavarria/notes"
+
+
+[workspace]
+resolver = "2"
+members = ["cli", "tools/build-from-source"]
+
+[profile.release]
+debug = true
+
+[profile.release-stripped]
+inherits = "release"
+debug = false
+strip = true
+
+[workspace.dependencies]
+
+typst = "0.11.1"
+typst-assets = "0.11.1"
+typst-ts-core = { version = "0.5.0-rc4" }
+typst-ts-compiler = { version = "0.5.0-rc4" }
+typst-ts-text-exporter = { version = "0.5.0-rc4" }
+typst-ts-svg-exporter = { version = "0.5.0-rc4", features = [
+    "experimental-ligature",
+] }
+
+handlebars = "4.5"
+
+# general
+anyhow = "1"
+comemo = "0.4"
+tokio = { version = "1.36", features = ["full"] }
+
+# cryptography and processing
+serde = { version = "1" }
+serde_json = "1"
+toml = "0.8"
+
+# web
+warp = { version = "0.3", features = ["compression"] }
+
+# cli
+clap = { version = "4.5", features = ["derive", "env", "unicode", "wrap_help"] }
+clap_complete = "4.5"
+clap_complete_fig = "4.5"
+
+# logging and tracing
+env_logger = "0.11"
+log = "0.4.21"
+
+# misc
+vergen = { version = "8.2.5", features = [
+    "build",
+    "cargo",
+    "git",
+    "gitcl",
+    "rustc",
+] }
+include_dir = "0.7.3"
+pathdiff = "0.2.1"
+
+[patch.crates-io]
+typst = { git = "https://github.com/Myriad-Dreamin/typst.git", branch = "typst.ts-v0.11.1-content-hint" }
+typst-syntax = { git = "https://github.com/Myriad-Dreamin/typst.git", branch = "typst.ts-v0.11.1-content-hint" }
+typst-ts-svg-exporter = { git = "https://github.com/Myriad-Dreamin/typst.ts", rev = "b5371c5821b962617272b38b18cb2c1ee4110c99", package = "typst-ts-svg-exporter" }
+typst-ts-text-exporter = { git = "https://github.com/Myriad-Dreamin/typst.ts", rev = "b5371c5821b962617272b38b18cb2c1ee4110c99", package = "typst-ts-text-exporter" }
+typst-ts-core = { git = "https://github.com/Myriad-Dreamin/typst.ts", rev = "b5371c5821b962617272b38b18cb2c1ee4110c99", package = "typst-ts-core" }
+typst-ts-compiler = { git = "https://github.com/Myriad-Dreamin/typst.ts", rev = "b5371c5821b962617272b38b18cb2c1ee4110c99", package = "typst-ts-compiler" }
+
+# typst = { path = "../../../typst/crates/typst" }
+# typst-syntax = { path = "../../../typst/crates/typst-syntax" }
+# typst-ts-svg-exporter = { path = "../../exporter/svg" }
+# typst-ts-text-exporter = { path = "../../exporter/text" }
+# typst-ts-compiler = { path = "../../compiler" }
+# typst-ts-core = { path = "../../core" }
