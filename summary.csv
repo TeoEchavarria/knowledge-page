@@ -1,4 +1,28 @@
 Chapter,ID,Title,PartialEmbedding,Embedding
-"Set Theory","240724120916","Conjunto",0,0
-"Set Theory","240724121355","Contable",0,0
-"Other","240724113358","Multiplicity Zeros",0,0
+AUX,240724195050,Evento,0,0
+AUX,250724000118,Teorema : Taylor,0,0
+AUX,240724131724,Union,0,0
+AUX,240724125751,Experimento Aleatorio,0,0
+AUX,240724235728,Teorema : Valores Extremos,0,0
+AUX,240724205512,Complemento de Probabilidad,0,0
+AUX,240724224325,Funcion Masa de Probabilidad,0,0
+AUX,240724214235,Variable Aleatoria Continua,0,0
+AUX,240724121355,Contable,0,0
+AUX,250724000551,Serie de tiempo,0,0
+AUX,240724224528,Variable Continua basada en otra Variable Continua,0,0
+AUX,240724125842,Probabilidad,0,0
+AUX,240724130645,Interseccion,0,0
+AUX,240724211427,Variable Aleatoria Discreta,0,0
+AUX,240724230832,Varianza,0,0
+AUX,250724000610,Estacionalidad,0,0
+AUX,240724225035,Esperanza,0,0
+AUX,240724132447,Espacio Muestral,0,0
+AUX,240724120916,Conjunto,0,0
+AUX,240724204415,Complemento,0,0
+AUX,240724235555,Teorema : Valor Intermedio,0,0
+AUX,240724130551,Probabilidad : Condicional,0,0
+AUX,240724215223,Funcion Densidad de Probabilidad,0,0
+AUX,240724113358,Ceros de Multiplicidad,0,0
+AUX,240724124455,Subconjunto,0,0
+AUX,240724205621,Variable Aleatoria,0,0
+AUX,240724233812,Probabilidad : Union de Eventos,0,0
