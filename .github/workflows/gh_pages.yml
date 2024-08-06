@@ -1,4 +1,4 @@
-name: tutorial::gh_pages
+name: knowledge-page::gh_pages
 on:
   push:
     branches:
