@@ -21,4 +21,8 @@ jobs:
         with:
           name: ebook
           path: src/ebook.pdf
+<<<<<<< HEAD
       - run:  echo 'Artifact URL is ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/${{ steps.artifact-upload-step.outputs.artifact-id }}'
+=======
+      - run:  echo 'Artifact URL is ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/${{ steps.artifact-upload-step.outputs.artifact-id }}'
+>>>>>>> 89d870c (Build)
