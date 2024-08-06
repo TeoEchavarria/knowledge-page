@@ -1,12 +1,7 @@
-#import "config.typ": *
+#import "/book.typ": *
 
-#show : doc => conf(
-  title: [
-    = {{title}}
-  ],
-  authors: (
-  ),
-  doc,
-)
+#show : book-page.with(title: "{{title}}")
+
+= {{title}}
 
 {{content}}
