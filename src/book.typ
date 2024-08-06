@@ -61,8 +61,8 @@
 
 #book-meta(
   title: "TeoNotes",
-  repository: "https://github.com/teoechavarria/notes",
-  repository-edit: "https://github.com/teoechavarria/notes/edit/main/src/{path}",
+  repository: "https://github.com/teoechavarria/knowledge-page",
+  repository-edit: "https://github.com/teoechavarria/knowledge-page/edit/main/src/{path}",
   summary : summary_dir.join()
 )
 
