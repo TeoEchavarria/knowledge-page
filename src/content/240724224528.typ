@@ -1,4 +1,4 @@
-#import "/book.typ": *
+#import "/src/book.typ": *
 
 #show : book-page.with(title: "Variable Continua basada en otra Variable Continua")
 

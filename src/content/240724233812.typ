@@ -1,4 +1,4 @@
-#import "/book.typ": *
+#import "/src/book.typ": *
 
 #show : book-page.with(title: "Probabilidad : Union de Eventos")
 
