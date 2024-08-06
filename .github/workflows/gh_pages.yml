@@ -38,14 +38,14 @@ jobs:
           sudo cp shiroa-x86_64-unknown-linux-gnu/bin/shiroa /usr/bin/shiroa
       - name: Build Book
         run: |
-          shiroa build src --font-path ./assets/typst-fonts/ --font-path ./assets/fonts/ --path-to-root /notes/ 
+          shiroa build notes --font-path ./assets/typst-fonts/ --font-path ./assets/fonts/ --path-to-root /notes/ 
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload `/github-pages` sub directory
-          path: './src/dist'
+          path: './notes/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
