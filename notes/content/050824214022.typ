@@ -4,9 +4,9 @@
 
 = Probabilidad : Exito en paso N
 
-Sea $X$ una variable_aleatoria_discreta donde lo que se quiere es encontrar el primer individuo con una cierta caracteristica de interes.
+Sea $X$ una #cross-link("/content/240724211427.typ")[variable aleatoria discreta] donde lo que se quiere es encontrar el primer individuo con una cierta caracteristica de interes.
 
-Su espacio_muestral se veria de la siguiente forma:  $ S= (T,NT,NNT,NNNT,...) $ 
+Su #cross-link("/content/240724132447.typ")[espacio muestral] se veria de la siguiente forma:  $ S= (T,N T,N N T,N N N T,...) $ 
 
 Donde $T$ es el evento de que salga la caracteristica de interes y $t$ la probabilidad de que esa caracteristica, siendo $N$ su complemento
 

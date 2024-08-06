@@ -4,7 +4,7 @@
 
 = Probabilidad Condicional
 
-Sea la probabilidad Condicional una donde en este caso un evento si depende del otro, a diferencia de cuando hablabamos de probabilidad_eventos_separados
+Sea la probabilidad Condicional una donde en este caso un evento si depende del otro, a diferencia de cuando hablabamos de #cross-link("/content/050824214005.typ")[eventos separados]
 
 - La probabilidad condicional es cuando el evento $A$ puede afectar la ocurrencia del evento $B$
 
