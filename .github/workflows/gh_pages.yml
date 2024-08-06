@@ -46,14 +46,14 @@ jobs:
         uses: Swatinem/rust-cache@v2
       - name: Build Book
         run: |
-          shiroa build notes --font-path ./assets/typst-fonts/ --font-path ./assets/fonts/ --path-to-root /notes/ 
+          cargo run --release --bin shiroa -- build --font-path assets/fonts --path-to-root /shiroa/ -w . notes
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload `/github-pages` sub directory
-          path: './notes/dist'
+          path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
