@@ -1,6 +1,6 @@
-=import "/book.typ": *
+#import "/book.typ": *
 
-=show : book-page.with(title: "Distribucion : Acumulada")
+#show : book-page.with(title: "Distribucion : Acumulada")
 
 = Distribucion : Acumulada
 

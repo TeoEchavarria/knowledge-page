@@ -29,7 +29,6 @@
     ("240724130645", "Interseccion"),
     ("050824204758", "Matriz"),
     ("240724125842", "Probabilidad"),
-    ("050824213607", "Probabilidad : Circuitos"),
     ("240724130551", "Probabilidad : Condicional"),
     ("050824213943", "Probabilidad : Conjunto Vacio"),
     ("050824214005", "Probabilidad : Eventos Separados"),
