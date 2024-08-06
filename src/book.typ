@@ -1,8 +1,10 @@
-#import "@preview/shiroa:0.1.0": *
 #import "@preview/gentle-clues:0.9.0": *
+#import "@preview/shiroa:0.1.0": *
 
 #show: book
-    
+
+#let book-info = json("/meta.json")
+
 #let chapters = (
   ("AUX", (
     ("050824214047", "Aproximacion : Hipergeometrica con una Binomial"),
@@ -60,9 +62,11 @@
 #book-meta(
   title: "TeoNotes",
   repository: "https://github.com/teoechavarria/notes",
+  repository-edit: "https://github.com/teoechavarria/notes/edit/main/src/{path}",
   summary : summary_dir.join()
 )
 
+#build-meta(dest-dir: "../dist")
 // re-export page template
 #import "/typ/templates/page.typ": project, heading-reference
 #let book-page = project
