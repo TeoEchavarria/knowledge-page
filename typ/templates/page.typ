@@ -248,17 +248,6 @@
     children.slice(0, rb).join()
   }
 
-
-  if title != none {
-    if is-web-target {
-      [= #title]
-    } else {
-      v(0.5em)
-      align(center, [= #title])
-      v(1em)
-    }
-  }
-
   // Main body.
   set par(leading: par-leading, justify: true)
 
