@@ -27,6 +27,17 @@ pnorm(x_2, E, sqrt(Var)) - pnorm(x_1, E, sqrt(Var))
 
 Dado que en si la funcion `pnorm` es $ P(X <= a) $ 
 
+== Util
+
+Si tenemos la informacion de que $P( X <= a ) = b$ y ademas $P( X <= c) = d$
+
+```R
+z1 <- qnorm(b)
+z2 <- qnorm(d)
+sigma <- (a - b) / (z2 - z1)
+mu <- a - z1 * sigma
+```
+
 == Propiedades 
 
 Dichas propiedades son extrapolables a cualquier distribucion normal con paramentros $mu, sigma$ diferente, dado que toda normal puede pasarse a una **normal estandar**
